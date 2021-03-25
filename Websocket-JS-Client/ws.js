@@ -20,7 +20,7 @@ $(document).ready(function () {
         if (e.wasClean) {
             addMessage(`[close] Connection closed cleanly, code=${e.code} reason=${e.reason}`);
         } else {
-            // e.g. server process killed or network down
+            // e.g., server process was killed or network is down
             // event.code is usually 1006 in this case
             addMessage('[close] Connection died');
         }

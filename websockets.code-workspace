@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "WebSockets",
+			"path": "WebSockets"
+		}
+	],
+	"settings": {}
+}
