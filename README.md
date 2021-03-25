@@ -7,8 +7,9 @@ Reacting to HTTP requests is useful especially if a computer should trigger some
 
 ## Project Setup
 
-Create a new project with Visual Studio Code and Platform.IO. Add the “ESP Async WebServer” by Hristo Gochkov.
-The library also has more information about handling WebSockets, but it doesn’t contain a simple example that only includes the functionality we require for sending & receiving web socket messages: https://github.com/me-no-dev/ESPAsyncWebServer#async-websocket-plugin
+You need a compatible ESP32 board (in this case: Wemos / LOLIN D32), a simple LDR sensor with a matching resistor (e.g., 10kΩ) and a local Wi-Fi network you can connect to with both the board and your computer. Create a new project with Visual Studio Code and Platform.IO. Add the “ESP Async WebServer” library by Hristo Gochkov.
+
+The library documentation has more information about handling WebSockets, but it doesn’t contain a simple example that only includes the functionality we require for sending & receiving web socket messages: https://github.com/me-no-dev/ESPAsyncWebServer#async-websocket-plugin
 
 
 ## Wiring
